@@ -1,0 +1,417 @@
+/*=================================================================The project will be under development in the near future, such features as responsive design and clear code will be added.:)============================================================================*/
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+}
+
+#google{
+    width: 20%;
+    height: 40px;
+    display: flex;
+    flex-basis: 8em;
+    margin-left: 1%;
+}
+
+#search[type=text]{
+    display: flex;
+    width: 350%;
+    padding: 13px 13px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 8%;
+    border: 2px solid #E2E2E2;
+    border-radius: 3px;
+    box-shadow:1px 1px 1px 1px #B2B2B2;
+}
+
+#search:hover{
+    box-shadow:2px 2px 2px 2px #B2B2B2; 
+}
+
+/*=============================================================================================================================================*/
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1%;
+    background-color: #FAFAFA;
+}
+
+/*=============================================================================================================================================*/
+
+.container_2{
+    display: flex;
+    flex-direction: row;
+    border-bottom: groove #FAFAFA 1px;
+    background-color: #FAFAFA;
+}
+
+.left{
+   display: inline-block;
+   position: relative;
+   left: 9%;
+   margin-top: 1%; 
+   margin-bottom: 1%;
+}
+
+
+.left a{
+    color: #ccc5c5;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 1%;
+}
+
+.left a:hover{
+    color: gray;
+}
+
+.left a:focus{
+    color: #1A73E8;
+    border-bottom: #1A73E8 solid 5px;
+    padding-bottom: 4%;
+
+}
+
+.right{
+    display: inline-block;
+    position: relative;
+    left: 16%;
+    margin-top: 1%;
+    margin-bottom: 1%;  
+}
+
+.right a{
+    color: #ccc5c5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.right a:hover{
+    color: gray;
+}
+
+#tools{
+    padding: 5px 9px 5px 9px;
+}
+
+#tools:hover{
+    border-top: 1px groove rgb(209, 209, 209);
+    border-bottom: 1px groove rgb(209, 209, 209);
+    border-right: 1px groove rgb(209, 209, 209);
+    border-left: 1px groove rgb(209, 209, 209); 
+}
+
+.srch_about{
+    display: inline-block;
+    position: relative;
+    left: 9%;
+    color: #ccc5c5;
+    font-size: 15px;
+    margin-top: 1%;
+}
+
+/*=============================================================================================================================================*/
+
+.container_3{
+    display: grid;
+    position: relative;
+    left: 9%;
+    grid-template-columns: 560px;
+    margin-top: 15px;
+}
+
+.container_3 p{
+    color: gray;
+    font-size: 13px;
+}
+
+.container_3 h3{
+    color: #1A0DAB;
+    text-decoration: none;
+}
+
+.container_3 a{
+    text-decoration: none;
+}
+
+.container_3 a:hover{
+    text-decoration: underline #1A0DAB;
+}
+
+/*=============================================================================================================================================*/
+
+.container_4{
+    display: flex;
+    left:11%;
+    position: relative;
+    margin-top: 15px;
+}
+
+.container_4 h3{
+    color: #1A0DAB;
+}
+
+.container_4 a{
+    text-decoration: none;
+}
+
+.container_4 a:hover{
+    text-decoration: underline #1A0DAB;
+}
+
+.container_4_a{
+    width: 10%;
+}
+
+.container_4_a p{
+    font-size: 13px;
+    color: gray;
+}
+
+.container_4_b{
+    width: 11%;
+    position: relative;
+    left: 4%;
+}
+
+.container_4_b p{
+    font-size: 13px;
+    color: gray;
+}
+
+#website_links{
+    color: green;
+    font-size: 13px;
+}
+
+/*=============================================================================================================================================*/
+
+.container_5{
+    display: block;
+    width: 35%;
+    height: 310px;
+    border: 2px solid #E2E2E2;
+    border-radius: 3px;
+    box-shadow:1px 1px 1px 1px #B2B2B2; 
+    position: relative;
+    left: 9%;
+    margin-top: 25px;
+    padding: 15px 15px 15px 15px;
+}
+
+#joomla{
+    width:25%; 
+    height:70px;
+    position: relative;
+    left: 75%;
+    bottom: 20%;
+    margin-bottom: -25px;
+}
+
+#more{
+    position: relative;
+    left: 3%;
+    font-size: 14px;
+    color: gray;
+    
+}
+
+#more:hover{
+    text-decoration: underline gray;
+}
+
+.container_5 ol{
+    margin: 0 0 15px 0;
+    position: relative;
+    right: 3%;
+}
+
+.container_5 p{
+    margin: 10px 0 10px 0;
+}
+
+.container_5 h3{
+    color: #1A0DAB;
+}
+
+.container_5 a{
+    text-decoration: none;
+}
+
+.container_5 a:hover{
+    text-decoration: underline #1A0DAB;
+}
+
+/*=============================================================================================================================================*/
+
+.container_6{
+    display: grid;
+    position: relative;
+    left: 9%;
+    grid-template-columns: 560px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.container_6 p{
+    color: gray;
+    font-size: 13px;
+}
+
+.container_6 h3{
+    color: #1A0DAB;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.container_6 a{
+    text-decoration: none;
+}
+
+.container_6 a:hover{
+    text-decoration: underline #1A0DAB;
+}
+
+/*=============================================================================================================================================*/
+
+.container_7{
+    display: flex;
+    width: 35%;
+    height: 190px;
+    border: 2px solid #E2E2E2;
+    border-radius: 3px;
+    box-shadow:1px 1px 1px 1px #B2B2B2; 
+    position: relative;
+    left: 9%;
+    margin-top: 25px;
+    padding: 15px 15px 15px 15px;
+    flex-direction: row;
+    
+}
+
+.column{
+    flex: 16.66%;
+    padding: 5px;
+    align-self: flex-end;
+    position: relative;
+    right: 40%;
+    color: #1A0DAB;
+}
+
+.rs{
+    flex: 50%;
+    align-self: flex-start;
+}
+
+/*=============================================================================================================================================*/
+
+.container_8{
+    display: flex;
+    left:11%;
+    position: relative;
+    margin-top: 15px;
+}
+
+.container_8 h3{
+    color: #1A0DAB;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.container_8 a{
+    text-decoration: none;
+}
+
+.container_8 a:hover{
+    text-decoration: underline #1A0DAB;
+}
+
+.container_8_a{
+    width: 10%;
+}
+
+
+.container_8_b{
+    width: 11%;
+    position: relative;
+    left: 1%;
+}
+
+#srchs{
+    position: relative;
+    left: 11%;
+    font-size: 20px;
+    margin: 30px 0 30px 0; 
+}
+
+/*=============================================================================================================================================*/
+
+/*The Goooogle pages should be done in table, couldn't find images for that*/
+
+/*=============================================================================================================================================*/
+
+.container_9{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-top: groove lightgray 1px;
+    background-color: #FAFAFA;
+    padding: 15px 0 15px 0;
+    margin-top: 10px;
+}
+
+#loc{
+    padding-right: 10px;
+    position: relative;
+    left: 9%;
+    border-right: 1px groove gray 1px;
+    color: #B2B2B2;
+}
+
+#loc_prec{
+    padding-left: 10px;
+    position: relative;
+    left: 9%;
+    color: #B2B2B2;
+    font-size: 14px;
+}
+
+#loc_prec_2{
+    color: #B2B2B2;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#loc_prec_2:hover{
+    color: black;
+}
+
+.container_10{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #FAFAFA;
+    padding: 15px 0 15px 0;
+    border-top: groove lightgray 1px;
+}
+
+#foot_links{
+    position: relative;
+    left: 9%;
+}
+
+#foot_links a{
+    color: #B2B2B2;
+    font-size: 14px;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+#foot_links a:hover{
+    color: black;
+}
